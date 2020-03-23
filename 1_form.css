@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    color: white!important;
+    font-family: 'Play', sans-serif;
+
+}
+
+h1,
+h2 {
+    letter-spacing: 0.2rem;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+
+/* Start Landing Page */
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.home-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+/* End Landing Page */
+
+/* Start Form */
+.container {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
+    top:10%;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+.signin-form,
+.signup-form {
+	background-color: rgba(0,0,0,0.6);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+.text-input {
+    border-bottom: 2px solid white; 
+}
+.input-group-text,
+.form-control {
+    background-color: transparent!important;
+    border: none!important;
+}
+.btn-warning {
+    width: 40%;
+    background-color: #ED7A39!important;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border: none!important;
+    border-radius: 0!important;
+    letter-spacing: .1rem;
+}
+.fa-envelope,
+.fa-key,
+.fa-user,
+.fa-key {
+    font-size: 1.4rem;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-google-plus {
+    font-size: 2.4rem;
+}
+.fa-facebook {
+    color: #46629E!important;
+}
+.fa-twitter {
+    color: #41ACEE!important;
+}
+.fa-google-plus {
+    color: #DD4B39!important;
+}
+/* End Form */
+
+/* Start Footer */
+.footer {
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.footer p {
+    letter-spacing: 0.1rem;
+}
+span {
+    color: #ED7A39!important;
+}
+/* End Footer */
+
+

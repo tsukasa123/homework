@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.contact-wrap {
+    position: relative;
+    width: 430px;
+    height: 540px;
+    color: white;
+    background-color: #F3943D;
+    margin-top: 3rem;
+    padding: 2rem 3rem;
+}
+
+.close-button {
+    position: absolute;
+    top: 3%;
+    left: 96%;
+    font-size: 1.4rem;
+}
+
+.form-text {
+    margin-bottom: 0.5rem;
+}
+
+.form-text h2 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.form-text p {
+    margin-bottom: 0;
+}
+
+p {
+    font-weight: 100;
+}
+
+hr {
+    width: 200px;
+    background-color: white;
+    padding: 1px 0;
+}
+
+span {
+    font-size: 0.8rem;
+}
+
+.text-p1 {
+    line-height: 18px;
+}
+
+.text-p2 {
+    height:15px;
+}
+
+.radio-box {
+    position: relative;
+    width: 20%;
+    background-color: #D27E34;
+    width: 60px;
+    height: 40px;
+    margin-right: 0.3rem;
+    border-radius: 8px;
+}
+
+input[type="radio"] {
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+
+label {
+    position: absolute;
+    font-size: 0.9rem;
+    top: 23%;
+    left: 35px;
+}
+
+.form-control {
+    font-size: 0.8rem!important;
+    background-color:#D27E34!important;
+    border: none!important;
+    color: white!important;
+}
+
+::placeholder {
+    color: white!important;
+    font-size: 0.8rem;
+}
+
+.input-email {
+    margin-top: 1rem;
+}
+
+.input-email input {
+    height: 40px;
+}
+
+.btn-primary {
+    width: 100%;
+    height: 45px;
+    font-weight: bold!important;
+    font-size: 1.2rem!important;
+    background-color: white!important;
+    color: #F3943D!important;
+    border: none!important;
+    box-shadow: 5px 5px 3px #D27E34!important;
+}
